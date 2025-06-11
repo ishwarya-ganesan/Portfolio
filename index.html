@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width = device-width,initial-scale=1.0">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/091c11ea95.js" crossorigin="anonymous">
+    </script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body scroll="no" onresize="getScreenWidth()">
+    <!-- <div> -->
+    <div class="container1" id="home">
+        <nav class="navBar">
+            <div class="navTxt">
+                <h1><span>P</span>ortfolio</h1>
+            </div>
+            <div class="menuIcon"> <i class="fa-solid fa-bars "></i></div>
+            <ul class="menu-large">
+                <li><a href="#home" onclick="active(id)" id="hom" class="nav">Home</a></li>
+                <li><a href="#about" onclick="active(id)" id="abt" class="nav">About</a></li>
+                <li><a href="#skill" onclick="active(id)" id="skil" class="nav">Skill</a></li>
+                <li><a href="#project" onclick="active(id)" id="proj" class="nav">Project</a></li>
+                <li><a href="#education" onclick="active(id)" id="edu" class="nav">Education</a></li>
+                <li><a href="#contact" onclick="active(id)" id="cont" class="nav">Contact</a></li>
+            </ul>
+            <div class="menu-mobile">
+                <ul>
+                    <li><a href="#home" onclick="active('hom')" id="hom" class="nav">Home</a></li>
+                    <li><a href="#about" onclick="active('abt')" id="abt" class="nav">About</a></li>
+                    <li><a href="#skill" onclick="active()" id="skil" class="nav">Skill</a></li>
+                    <li><a href="#project" onclick="active()" id="proj" class="nav">Project</a></li>
+                    <li><a href="#education" onclick="active()" id="edu" class="nav">Education</a></li>
+                    <li><a href="#contact" onclick="active()" id="cont" class="nav">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="content">
+            <section class="homeSection">
+                <h1>I AM <span>Full Stack Web</span></h1>
+                <h1>DEVELOPER</h1>
+                <p> Enthusiastic and motivated Web Developer with a strong foundation in HTML, CSS, JavaScript, and
+                    modern frameworks like React. </p>
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-instagram text-center"></i></a>
+                    <a href=""><i class="fa-brands fa-github text-center"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin text-center"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp text-center"></i></a>
+                </div>
+                <div class="contentBtn">
+                    <button class="btn1">HIRE ME</button>
+                    <button class="btn2">MY WORKS</button>
+                </div>
+            </section>
+            <aside class="homeAside">
+                <div class="circle circle1">
+                    <div class="circle circle2">
+                        <div class=" circle circle3">
+                            <!-- <img src="./images/ishu.png" alt="" class="profile"> -->
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <div class="container1" id="about">
+        <h1 class="h1Txt">About</h1>
+        <div class="about">
+            <section>
+                <div class="sectionDiv">
+                    <!-- <img src="" alt=""> -->
+                    <div class="cornerImg1"></div>
+                    <div class="cornerImg2"></div>
+                    <div class="sectionImage1">
+
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <h1>Ishwarya</h1>
+                <span>I'M A WEB DEVELOPER</span>
+                <p>A web developer with a passion for crafting clean, responsive, and user-friendly websites and
+                    applications. I specialize in front-end development, bringing designs to life with modern
+                    technologies
+                    like HTML, CSS, JavaScript, and React, while also having solid experience on the back end with
+                    Node.js,
+                    Express, and MongoDB.</p>
+                <button>Download CV <i class="fa-solid fa-download"></i></button>
+            </aside>
+        </div>
+    </div>
+    <div class="container1" id="skill">
+        <h1 class="h1Txt">Skill</h1>
+        <div class="skillSetDiv">
+            <div>
+                <h2>HTML</h2>
+                <p>HTML, which stands for HyperText Markup Language, is the foundation of every webpage on the web.
+                </p>
+            </div>
+            <div>
+                <h2>CSS</h2>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation.
+                </p>
+            </div>
+            <div>
+                <h2>BOOTSTRAP</h2>
+                <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web
+                    development.
+                </p>
+            </div>
+            <div>
+                <h2>JAVA SCRIPT</h2>
+                <p>JavaScript (JS) is a programming language and core technology of the World Wide Web, alongside HTML
+                    and CSS.
+                </p>
+            </div>
+            <div>
+                <h2>REACT JS</h2>
+                <p>ReactJS is a free and open-source front-end JavaScript library, that aims to make building user
+                    interfaces based on components.
+                </p>
+            </div>
+            <div>
+                <h2>MONGO DB</h2>
+                <p>MongoDB is a document database. It stores data in a type of JSON format called BSON.
+                </p>
+            </div>
+        </div>
+
+        <div class="slope slopeLeftTop"></div>
+        <div class="slope slopeLeftCenter"></div>
+        <div class="slope slopeLeftBottom"></div>
+        <div class="slope slopeRightTop"></div>
+        <div class="slope slopeRightCenter"></div>
+        <div class="slope slopeRightBottom"></div>
+    </div>
+
+    <div class="" id="project">
+        <h1 class="h1Txt">Project</h1>
+        <div class="projGrid">
+            <div>
+                <div class="scene">
+
+                    <div class="cuboid">
+                        <div class="face front front1 "></div>
+                        <div class="face front img3d"></div>
+                        <div class="face back back1"></div>
+                        <div class="face back"></div>
+                        <div class="face right right1"></div>
+                        <div class="face right"></div>
+                        <div class="face left left1"></div>
+                        <div class="face left img3d"></div>
+                        <div class="face top"></div>
+                        <div class="face bottom bottom1"></div>
+                        <div class="face bottom"></div>
+
+                    </div>
+                </div>
+                <div class="projDetail">
+                    <h2>Project : Portfolio</h2>
+                    <p>Welcome to my portfolio website – a showcase of my work, skills, and creative journey. Explore my
+                        projects, learn about my experience, and see how I bring ideas to life through design,
+                        development, and innovation. Let’s connect and create something great together!</p>
+                    <div>
+                        <a>http/hello</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="scene">
+
+                    <div class="cuboid">
+                        <div class="face front front1 "></div>
+                        <div class="face front img3d"></div>
+                        <div class="face back back1"></div>
+                        <div class="face back"></div>
+                        <div class="face right right1"></div>
+                        <div class="face right"></div>
+                        <div class="face left left1"></div>
+                        <div class="face left img3d"></div>
+                        <div class="face top"></div>
+                        <div class="face bottom bottom1"></div>
+                        <div class="face bottom"></div>
+
+                    </div>
+                </div>
+                <div class="projDetail">
+                    <h2>Project : Furniture Shop</h2>
+                    <p>Welcome to our online furniture store – your one-stop destination for stylish, affordable, and
+                        high-quality home furnishings. Browse our wide selection of sofas, beds, dining tables, and
+                        decor items, all from the comfort of your home.</p>
+                    <div>
+                        <a>https://ishwarya-ganesan.github.io/Furniture-Website/</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="scene">
+                    <div class="cuboid">
+                        <div class="face front front1 ">Portfolio</div>
+                        <div class="face front img3d"></div>
+                        <div class="face back back1"></div>
+                        <div class="face back"></div>
+                        <div class="face right right1"></div>
+                        <div class="face right"></div>
+                        <div class="face left left1"></div>
+                        <div class="face left img3d"></div>
+                        <div class="face top"></div>
+                        <div class="face bottom bottom1"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
+                <div class="projDetail">
+                    <h2>Project : Online Book Store</h2>
+                    <p>Discover a world of stories at our online bookstore – your go-to destination for bestsellers,
+                        classics, academic texts, and more. Whether you're a casual reader or a passionate book lover,
+                        enjoy seamless browsing, secure shopping, and doorstep delivery of your favorite titles.</p>
+                    <div>
+                        <a>http/hello</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="scene">
+                    <div class="cuboid">
+                        <div class="face front front1 "></div>
+                        <div class="face front img3d"></div>
+                        <div class="face back back1"></div>
+                        <div class="face back"></div>
+                        <div class="face right right1"></div>
+                        <div class="face right"></div>
+                        <div class="face left left1"></div>
+                        <div class="face left img3d"></div>
+                        <div class="face top"></div>
+                        <div class="face bottom bottom1"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
+                <div class="projDetail">
+                    <h2>Project : Ecommerce - Grocery</h2>
+                    <p>Shop fresh and affordable groceries online with ease! Our eCommerce grocery store offers a wide
+                        range of fruits, vegetables, pantry staples, dairy, and household essentials – all delivered
+                        straight to your door. Enjoy convenient shopping, secure payments, and fast delivery every day.
+                    </p>
+                    <div>
+                        <a>http/hello</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container1" id="education">
+        <h1 class="h1Txt">Education</h1>
+        <div class="educDiv">
+            <div class="qualificationDiv">
+                <h5>10th</h5>
+                <h5 class="number">91%</h5>
+                <input type="range" value="0" class="range">
+            </div>
+            <div class="qualificationDiv">
+                <h5>12th</h5>
+                <h5 class="number">80%</h5>
+                <input type="range" value="0" class="range">
+            </div>
+            <div class="qualificationDiv">
+                <h5>UG</h5>
+                <h5 class="number">75%</h5>
+                <input type="range" value="0" class="range">
+            </div>
+        </div>
+    </div>
+    <div class="container1" id="contact">
+
+        <div class="contact">
+
+            <div class="upperTriangle"> </div>
+            <h1 class="h1Txt">Contact</h1>
+            <div class="lowerTriangle"></div>
+            <div class="contactDetails">
+                <table>
+                    <colgroup>
+                        <col span="1" style="text-align: center" />
+                    </colgroup>
+                    <tr>
+                        <td><img src="./images/mail.webp" alt="" height="50px" width="50px"></td>
+                        <td>ishwaryaXX@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-phone contactIcon"></i></td>
+                        <td>+914564758688</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-location-dot contactIcon"></i></td>
+                        <td>Bangalore</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-linkedin contactIcon"></i></td>
+                        <td>Linkedin <br /><a>htts://www.linkedin.com/feed/</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-github contactIcon"></i></td>
+                        <td>Github <br /> <a>https://github.com/</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- </div> -->
+    <script src="./index.js"></script>
+
+    <div class="triangle"></div>
+</body>
+
+</html>
