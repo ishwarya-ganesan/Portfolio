@@ -366,13 +366,21 @@ a {
     margin-top: 20px;
     border: 0.5px solid white;
 }
+.about>aside>button>a{
+    color: white;
+}
 
 /* Skill */
 
 #skill {
-    /* border: 1px solid white; */
+
+    background-image: url(./images/line.png);
+    background-size: 60% 80%;
+    background-repeat: no-repeat;
+    background-position: 250px 112px;
     position: relative;
 }
+
 
 #skill h1 {
     position: absolute;
@@ -382,52 +390,6 @@ a {
     font-size: 90px;
     font-weight: bold;
     color: #21d4c1;
-
-}
-
-.slope {
-    /* position: absolute;
-    width: 2px;
-    height: 300px;
-    margin-left: 40px;
-    background-color: white;  */
-    /* margin: 50px; */
-}
-
-#skill .slopeLeftTop {
-    /* top: 52px;
-    left: 419px; */
-    transform: rotate(106deg);
-}
-
-#skill .slopeLeftCenter {
-    /* top: 37%;
-    left: 418px; */
-    transform: rotate(88deg);
-}
-
-#skill .slopeLeftBottom {
-    /* bottom: -33px;
-    right: 524px; */
-    transform: rotate(133deg);
-}
-
-#skill .slopeRightTop {
-    /* top: 57px;
-    right: 476px; */
-    transform: rotate(-104deg);
-}
-
-#skill .slopeRightCenter {
-    /* right: 448px;
-    top: 38%; */
-    transform: rotate(91deg);
-}
-
-#skill .slopeRightBottom {
-    /* bottom: -32px;
-    left: 490px; */
-    transform: rotate(53deg);
 }
 
 .skillSetDiv {
@@ -437,9 +399,6 @@ a {
     grid-template-columns: auto auto;
     align-items: center;
     justify-items: center;
-    /* justify-content: ; */
-
-    /* border: 1px solid white; */
 }
 
 .skillSetDiv div {
